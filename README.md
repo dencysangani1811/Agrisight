@@ -27,9 +27,7 @@ agro/
 ├── manage.py
 └── requirements.txt
 
-bash
-Copy
-Edit
+
 
 ## ⚙️ Setup Instructions
 
