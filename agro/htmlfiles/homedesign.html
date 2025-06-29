@@ -1,0 +1,117 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Agrovision</title>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+   <div class="first-screen">
+     <header class="header-row wrap-col">
+       <nav class="main-menu">
+         <ul>
+           <li><a href="#about" class="main-menu-link">About</a></li>
+           <li><a href="#work" class="main-menu-link">Service</a></li>
+           <li><a href="#tech" class="main-menu-link">Technology</a></li>
+           <li><a href="#contact" class="main-menu-link">Contacts</a></li>
+          <li><a href="/login" class="main-menu-link" >Sign Up / Login</a>       </li>
+         </ul> 
+      </nav> 
+    </header>
+     <section class="main-screen">
+      <h1 class="first-caption">&nbsp;Agrovision
+      </h1>
+     </section>
+   </div>
+  <main>
+   <section class="about-us wrap-col" id="about">
+     <div class="add">What we do</div>
+     <h2 class="caption">Story about us</h2>
+     <div class="about-description">
+      <p>Write what motivated us to build Agrovision.</p>
+    </div>
+    <div class="countanier-story">
+      <div class="about-pic static left">
+        <a href="#" class="about-title team">
+          <span class="name-title">Super team</span>
+        </a>
+        <img src="{% static 'picture/jpg-1.jpg' %}" alt="1">
+      </div>
+      <div class="about-pic static right">
+        <a href="#" class="about-title oportunities">
+          <span class="name-title">Good oportunities</span>
+        </a>
+        <img src="{% static 'picture/jpg-2.jpg' %}" alt="2">
+      </div>
+      <div class="about-pic static">
+         <a href="#" class="about-title profit">
+           <span class="name-title">Positive Vision</span>
+         </a>
+        <img src="{% static 'picture/jpg-3.jpg' %}" alt="3">
+      </div>
+   </div> 
+ </section>
+ <section class="service wrap-col" id="work">
+   <div class="add">We provide</div>
+   <h2 class="caption">Amazing services</h2>
+   <div class="service-center">
+     <div class="service-top-wrap service-wraper">
+     
+           <strong class="services-name">Crop Production Statistic</strong>
+           <div class="services-desc">
+             <p >Few lines for the same.</p>
+           </div>
+      <br>
+       
+           <strong class="services-name">Weather Dependency</strong>
+           <div class="services-desc">
+             <p >Few lines for the same..</p>
+           </div>
+       
+<br>
+  
+         <strong class="services-name">Crop Disease Detection</strong>
+           <div class="services-desc">
+             <p >Few lines for the same..</p>
+           </div>
+       
+     
+     <div class="service-wraper">
+       
+          <strong class="services-name">Crop yield Predictions</strong>
+          <div class="services-desc">
+            <p >Few lines for the same..</p>
+          </div>
+       
+       </div>
+     </div>
+   </div>
+ </section>
+</main>
+ <footer class="main-footer" id="contact">
+   <div class="footer-center wrap-col">
+     <section class="contact-box">
+       <a href="index.html" class="link-first-screen">Agrovision</a>
+      <div class="footer-totals">
+        <p>few lines....</p>
+       </div>
+    </section>
+    <section class="blog-box" id="blog">
+      <h4><a href="#" class="link-blog">Contact Us</a></h4>
+      <div class="news">
+        <img src="{% static 'picture/blog-2.jpg' %}" alt="news-1">
+          <a href="#" class="news-title-text">+91 99567998977</a>
+         
+      </div>
+      <div class="news">
+        <img src="{% static 'picture/blog-1.jpg' %}" alt="news-2">
+          <a href="#" class="news-title-text">agrovision@gmail.com</a>
+         
+      </div>
+   </section>
+  </div>
+</footer>
+</body>
+</html>
