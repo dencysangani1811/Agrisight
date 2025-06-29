@@ -19,12 +19,19 @@
 
 agro/
 ├── agro/ # Main Django project settings
+
 ├── homepage/ # Main app logic: views, models, forms
+
 ├── htmlfiles/ # Template HTML files
+
 ├── static/ # Static assets (CSS, images, JS)
+
 ├── media/ # Uploaded media (excluded from Git)
+
 ├── db.sqlite3 # Local development DB
+
 ├── manage.py
+
 └── requirements.txt
 
 
