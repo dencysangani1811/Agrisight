@@ -34,26 +34,29 @@ Edit
 ## ⚙️ Setup Instructions
 
 ### 🔹 Clone the repository
-```bash
+
 git clone git@github.com:dencysangani1811/Agrisight.git
 cd Agrisight
+
+
 🔹 Create virtual environment
-bash
-Copy
-Edit
+
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+
 🔹 Install dependencies
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
+
+
+
 🔹 Run the server
-bash
-Copy
-Edit
+
 python manage.py migrate
 python manage.py runserver
+
+
 📌 Notes
 Make sure to collect media files and set up static properly for production
 
